@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: "Space Mono", monospace;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  background-color: #ffffff00;
+}
+img {
+  padding-top: 24px;
+  object-fit: cover;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  padding: 4px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+}
+html {
+  height: 100%;
+}
+body {
+  scroll-behavior: smooth;
+  gap: 87px;
+  flex-direction: column;
+  color: #111111;
+  background: #c5e4e7;
+  display: flex;
+  width: 1440px;
+  height: 1024px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+.card {
+  background-color: #ffffff;
+  height: 481px;
+  width: 920px;
+  border-radius: 20px;
+  box-shadow: 0px 32px 43px 0px #4fa6af33;
+  padding-right: 48px;
+  padding-left: 38px;
+  padding-top: 45px;
+}
+.card_title {
+  line-height: 35px;
+  letter-spacing: 10px;
+  color: #3d6666;
+}
+.car_main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.card_user-name {
+}
+input {
+  font-family: "Space Mono";
+  font-size: large;
+  font-weight: 700;
+  width: 379px;
+  height: 48px;
+  padding-left: 19px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #f3f9fa;
+}
+.card_input {
+  font-family: "Space Mono";
+  font-size: large;
+  font-weight: 700;
+  width: 379px;
+  height: 48px;
+  padding-left: 19px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #f3f9fa;
+}
+.card-select {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.card-item {
+  color: #ffffff;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 6px 14px;
+  background-color: #00474b;
+}
+
+.card_item-input {
+}
+.card-people {
+  gap: 6px;
+}
+.card-calculator {
+  width: 413px;
+  height: 417px;
+  background-color: #00474b;
+  border-radius: 5px;
+}
